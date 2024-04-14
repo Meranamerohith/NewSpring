@@ -1,0 +1,73 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+	<title>List Of products</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	
+	</head>
+<body>
+
+	<div class="container-fluid text-center text-white bg-success">
+		<h1>Spring boot Mvc Project With Thymeleaf</h1>
+		<h2>@Controller @Service @Repository Validation Logger......</h2>
+	</div>
+
+	<div class="text-center">
+		<a class="badge bg-warning" href="/products/getform">Create New Product</a>
+	</div>
+	
+	
+
+	<div class="container">
+    	<h1><i>List Of Available Products.....</i></h1>
+    	
+    	
+    	<div class="text-center">
+    		<h3 th:if="${savemessage}">
+    			Data Saved Successfully....
+    		</h3>
+    		
+    		<h3 th:if="${deletemessage}">
+    			Data deleted Successfully....
+    		</h3>
+    		
+    		<h3 th:if="${editmessage}">
+    			Data Edited Successfully....
+    		</h3>
+    		
+    	</div>
+    	
+    	
+	    	<table class="table table-bordered">
+			   <thead class="table table-dark">
+	             <tr>
+	                <th>Product ID</th>
+	                <th>Name</th>
+	                <th>Brand</th>
+	                <th>Made In</th>
+	                <th>Price</th>
+	                <th>Actions....</th>
+	              </tr>
+	             </thead>
+	             
+	          <tbody>
+    		  	<tr th:each="product : ${products}">
+	    			<td th:text="${product.id}"/>
+	                <td th:text="${product.name}"/>
+	                <td th:text="${product.brand}"/>
+	                <td th:text="${product.madeIn}"/>
+	                <td th:text="${product.price}"/>
+	       			 <td>
+	                	<a th:href="@{'/products/edit/' + ${product.id}}">Edit</a>
+	                	&nbsp;&nbsp;&nbsp;
+	                	<a th:href="@{'/products/delete/' + ${product.id}}">Delete</a>
+	                </td>             
+               </tr>      
+    	</tbody>   	 
+	             
+	          </table> 	             
+		</div>
+</body>
+</html>

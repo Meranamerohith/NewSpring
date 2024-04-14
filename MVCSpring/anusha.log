@@ -1,0 +1,550 @@
+2024-04-13T17:06:21.990+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:06:21.995+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:06:22.088+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-13T17:06:22.089+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-13T17:06:23.187+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:06:23.266+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-04-13T17:06:24.120+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:06:24.137+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:06:24.138+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:06:24.218+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:06:24.218+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2127 ms
+2024-04-13T17:06:24.258+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-13T17:06:24.515+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:06:24.521+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-13T17:06:24.543+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:06:24.735+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:06:24.843+05:30  INFO 18544 --- [MVCSpring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-13T17:06:24.918+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:06:25.244+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:06:26.490+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:06:26.551+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:06:26.920+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:06:27.426+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:06:27.499+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:06:27.514+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 6.149 seconds (process running for 7.347)
+2024-04-13T17:07:10.189+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13T17:07:10.190+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-13T17:07:10.192+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-13T17:07:10.237+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] c.tcs.web.controller.ProductContoller    : Displaying product form.........
+2024-04-13T17:07:44.203+05:30 ERROR 18544 --- [MVCSpring] [http-nio-8534-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction] with root cause
+
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'java.lang.Double'. Check configuration for 'price'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.boot.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:128) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:81) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityInsertAction.preInsert(EntityInsertAction.java:230) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:100) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:632) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:499) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:363) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1403) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:484) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2319) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1976) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:676) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:426) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.2.4.jar:3.2.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.5.jar:6.1.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-6.1.5.jar:6.1.5]
+	at jdk.proxy4/jdk.proxy4.$Proxy113.save(Unknown Source) ~[na:na]
+	at com.tcs.web.service.ProductService.createProduct(ProductService.java:19) ~[classes/:na]
+	at com.tcs.web.controller.ProductContoller.saveProduct(ProductContoller.java:44) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-04-13T17:14:12.203+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:14:12.237+05:30  INFO 18544 --- [MVCSpring] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:14:12.256+05:30  WARN 18544 --- [MVCSpring] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:14:12.257+05:30  INFO 18544 --- [MVCSpring] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-13T17:14:12.261+05:30  INFO 18544 --- [MVCSpring] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-13T17:14:12.344+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:14:12.344+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:14:12.469+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:14:12.482+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-04-13T17:14:12.589+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:14:12.590+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:14:12.591+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:14:12.621+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:14:12.622+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 276 ms
+2024-04-13T17:14:12.636+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-13T17:14:12.640+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:14:12.640+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-13T17:14:12.641+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:14:12.676+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:14:12.682+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:14:12.688+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:14:12.767+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:14:12.773+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:14:12.849+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:14:12.954+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:14:12.967+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:14:12.980+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.66 seconds (process running for 472.813)
+2024-04-13T17:14:12.988+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:14:26.627+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:14:26.641+05:30  INFO 18544 --- [MVCSpring] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:14:26.644+05:30  WARN 18544 --- [MVCSpring] [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:14:26.645+05:30  INFO 18544 --- [MVCSpring] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-13T17:14:26.646+05:30  INFO 18544 --- [MVCSpring] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-13T17:14:26.735+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:14:26.736+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:14:27.082+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:14:27.092+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-04-13T17:14:27.205+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:14:27.206+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:14:27.206+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:14:27.240+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:14:27.240+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 502 ms
+2024-04-13T17:14:27.250+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-04-13T17:14:27.254+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:14:27.254+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-04-13T17:14:27.255+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:14:27.286+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:14:27.289+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:14:27.295+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:14:27.355+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:14:27.359+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:14:27.441+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:14:27.544+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:14:27.558+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:14:27.574+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.869 seconds (process running for 487.408)
+2024-04-13T17:14:27.576+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:15:38.848+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:15:38.861+05:30  INFO 18544 --- [MVCSpring] [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:15:38.868+05:30  WARN 18544 --- [MVCSpring] [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:15:38.869+05:30  INFO 18544 --- [MVCSpring] [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-04-13T17:15:38.870+05:30  INFO 18544 --- [MVCSpring] [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-04-13T17:15:38.965+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:15:38.966+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:15:39.117+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:15:39.122+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-04-13T17:15:39.206+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:15:39.207+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:15:39.207+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:15:39.240+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:15:39.241+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 271 ms
+2024-04-13T17:15:39.254+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-04-13T17:15:39.256+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:15:39.257+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-04-13T17:15:39.257+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:15:39.286+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:15:39.294+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:15:39.300+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:15:39.359+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:15:39.362+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:15:39.427+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:15:39.516+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:15:39.535+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:15:39.558+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.631 seconds (process running for 559.391)
+2024-04-13T17:15:39.560+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:15:46.034+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:15:46.096+05:30  INFO 18544 --- [MVCSpring] [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:15:46.098+05:30  WARN 18544 --- [MVCSpring] [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:15:46.099+05:30  INFO 18544 --- [MVCSpring] [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-04-13T17:15:46.100+05:30  INFO 18544 --- [MVCSpring] [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-04-13T17:15:46.193+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:15:46.194+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:15:46.350+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:15:46.365+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2024-04-13T17:15:46.448+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:15:46.449+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:15:46.449+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:15:46.472+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:15:46.472+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 276 ms
+2024-04-13T17:15:46.487+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-04-13T17:15:46.490+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:15:46.490+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-04-13T17:15:46.491+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:15:46.519+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:15:46.532+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:15:46.540+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:15:46.580+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:15:46.583+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:15:46.638+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:15:46.714+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:15:46.733+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:15:46.747+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.591 seconds (process running for 566.581)
+2024-04-13T17:15:46.749+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:19:50.764+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-04-13T17:19:50.817+05:30  INFO 18544 --- [MVCSpring] [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:19:50.822+05:30  WARN 18544 --- [MVCSpring] [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:19:50.823+05:30  INFO 18544 --- [MVCSpring] [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-04-13T17:19:50.824+05:30  INFO 18544 --- [MVCSpring] [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-04-13T17:19:50.914+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:19:50.914+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:19:51.039+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:19:51.070+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-04-13T17:19:51.154+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:19:51.155+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:19:51.156+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:19:51.181+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:19:51.181+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 265 ms
+2024-04-13T17:19:51.195+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-04-13T17:19:51.199+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:19:51.200+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-04-13T17:19:51.200+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:19:51.230+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:19:51.233+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:19:51.244+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:19:51.283+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:19:51.287+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:19:51.349+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:19:51.427+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:19:51.436+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:19:51.450+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.557 seconds (process running for 811.283)
+2024-04-13T17:19:51.452+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:29:00.417+05:30  WARN 18544 --- [MVCSpring] [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=2m8s981ms349µs).
+2024-04-13T17:30:19.693+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:30:19.780+05:30  INFO 18544 --- [MVCSpring] [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:30:19.782+05:30  WARN 18544 --- [MVCSpring] [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:30:19.783+05:30  INFO 18544 --- [MVCSpring] [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-04-13T17:30:19.784+05:30  INFO 18544 --- [MVCSpring] [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-04-13T17:30:19.873+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:30:19.873+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:30:19.992+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:30:20.000+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-04-13T17:30:20.112+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:30:20.113+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:30:20.113+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:30:20.131+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:30:20.131+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2024-04-13T17:30:20.151+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-04-13T17:30:20.154+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:30:20.154+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-04-13T17:30:20.154+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:30:20.173+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:30:20.177+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:30:20.180+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:30:20.225+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:30:20.230+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:30:20.326+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:30:20.458+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:30:20.484+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:30:20.492+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.646 seconds (process running for 1440.325)
+2024-04-13T17:30:20.496+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:30:40.316+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:30:40.340+05:30  INFO 18544 --- [MVCSpring] [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:30:40.346+05:30  WARN 18544 --- [MVCSpring] [Thread-28] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:30:40.348+05:30  INFO 18544 --- [MVCSpring] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-04-13T17:30:40.353+05:30  INFO 18544 --- [MVCSpring] [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-04-13T17:30:40.447+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:30:40.447+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:30:40.560+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:30:40.568+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-04-13T17:30:40.638+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:30:40.640+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:30:40.640+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:30:40.659+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:30:40.659+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 210 ms
+2024-04-13T17:30:40.676+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-04-13T17:30:40.680+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:30:40.681+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-04-13T17:30:40.681+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:30:40.699+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:30:40.703+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:30:40.708+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:30:40.749+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:30:40.753+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:30:40.812+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:30:40.885+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:30:40.903+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:30:40.916+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.497 seconds (process running for 1460.749)
+2024-04-13T17:30:40.919+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:30:59.659+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:30:59.678+05:30  INFO 18544 --- [MVCSpring] [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:30:59.688+05:30  WARN 18544 --- [MVCSpring] [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:30:59.688+05:30  INFO 18544 --- [MVCSpring] [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-04-13T17:30:59.693+05:30  INFO 18544 --- [MVCSpring] [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-04-13T17:30:59.787+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:30:59.787+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:30:59.903+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:30:59.908+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-04-13T17:30:59.970+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:30:59.971+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:30:59.972+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:30:59.990+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:30:59.990+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2024-04-13T17:31:00.010+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-04-13T17:31:00.013+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:31:00.013+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-04-13T17:31:00.014+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:31:00.048+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:31:00.051+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:31:00.055+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:31:00.087+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:31:00.090+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:31:00.154+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:31:00.232+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:31:00.243+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:31:00.253+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.487 seconds (process running for 1480.086)
+2024-04-13T17:31:00.255+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:31:45.034+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:31:45.054+05:30  INFO 18544 --- [MVCSpring] [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:31:45.062+05:30  WARN 18544 --- [MVCSpring] [Thread-36] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:31:45.063+05:30  INFO 18544 --- [MVCSpring] [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-04-13T17:31:45.068+05:30  INFO 18544 --- [MVCSpring] [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-04-13T17:31:45.161+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:31:45.161+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:31:45.266+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:31:45.273+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-04-13T17:31:45.338+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:31:45.339+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:31:45.339+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:31:45.358+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:31:45.358+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2024-04-13T17:31:45.388+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-04-13T17:31:45.392+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:31:45.393+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-04-13T17:31:45.393+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:31:45.422+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:31:45.425+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:31:45.436+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:31:45.469+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:31:45.472+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:31:45.537+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:31:45.666+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:31:45.677+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:31:45.693+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.559 seconds (process running for 1525.526)
+2024-04-13T17:31:45.696+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:31:50.115+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:31:50.146+05:30  INFO 18544 --- [MVCSpring] [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:31:50.152+05:30  WARN 18544 --- [MVCSpring] [Thread-40] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:31:50.153+05:30  INFO 18544 --- [MVCSpring] [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-04-13T17:31:50.156+05:30  INFO 18544 --- [MVCSpring] [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-04-13T17:31:50.250+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:31:50.251+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:31:50.362+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:31:50.369+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-04-13T17:31:50.444+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:31:50.445+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:31:50.446+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:31:50.468+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:31:50.468+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 215 ms
+2024-04-13T17:31:50.481+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-04-13T17:31:50.484+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:31:50.484+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-04-13T17:31:50.484+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:31:50.506+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:31:50.510+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:31:50.519+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:31:50.570+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:31:50.576+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:31:50.638+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:31:50.785+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:31:50.797+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:31:50.805+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.582 seconds (process running for 1530.637)
+2024-04-13T17:31:50.806+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:32:04.297+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:32:04.317+05:30  INFO 18544 --- [MVCSpring] [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:32:04.321+05:30  WARN 18544 --- [MVCSpring] [Thread-44] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:32:04.321+05:30  INFO 18544 --- [MVCSpring] [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-04-13T17:32:04.326+05:30  INFO 18544 --- [MVCSpring] [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-04-13T17:32:04.448+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:32:04.449+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:32:04.568+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:32:04.574+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-04-13T17:32:04.635+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:32:04.636+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:32:04.637+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:32:04.663+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:32:04.663+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2024-04-13T17:32:04.678+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-04-13T17:32:04.681+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:32:04.683+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-04-13T17:32:04.684+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:32:04.703+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:32:04.707+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:32:04.713+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:32:04.773+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:32:04.783+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:32:04.867+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:32:04.992+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:32:05.019+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:32:05.035+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.612 seconds (process running for 1544.869)
+2024-04-13T17:32:05.039+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:32:14.182+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13T17:32:14.185+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-13T17:32:14.188+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-13T17:32:14.192+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] c.tcs.web.controller.ProductContoller    : Displaying product form.........
+2024-04-13T17:32:22.115+05:30 ERROR 18544 --- [MVCSpring] [http-nio-8534-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'java.lang.Long'. Check configuration for 'id'] with root cause
+
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'java.lang.Long'. Check configuration for 'id'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-8.0.1.Final.jar:8.0.1.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:106) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:67) ~[spring-boot-autoconfigure-3.2.4.jar:3.2.4]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:1264) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.validateIfApplicable(ModelAttributeMethodProcessor.java:233) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:155) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-04-13T17:33:16.720+05:30  INFO 18544 --- [MVCSpring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-13T17:33:16.738+05:30  INFO 18544 --- [MVCSpring] [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:33:16.740+05:30  WARN 18544 --- [MVCSpring] [Thread-48] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T17:33:16.741+05:30  INFO 18544 --- [MVCSpring] [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-04-13T17:33:16.743+05:30  INFO 18544 --- [MVCSpring] [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-04-13T17:33:16.874+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Starting MvcSpringApplication using Java 17.0.10 with PID 18544 (D:\spring\MVCSpring\target\classes started by sairo in D:\spring\MVCSpring)
+2024-04-13T17:33:16.874+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T17:33:17.050+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T17:33:17.058+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-04-13T17:33:17.158+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8534 (http)
+2024-04-13T17:33:17.159+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-13T17:33:17.159+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-13T17:33:17.188+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-13T17:33:17.188+05:30  INFO 18544 --- [MVCSpring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2024-04-13T17:33:17.200+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-04-13T17:33:17.202+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:sairo user=SAIROHITH
+2024-04-13T17:33:17.202+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-04-13T17:33:17.202+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:sairo'
+2024-04-13T17:33:17.239+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T17:33:17.243+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T17:33:17.251+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T17:33:17.325+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T17:33:17.332+05:30  INFO 18544 --- [MVCSpring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T17:33:17.404+05:30  WARN 18544 --- [MVCSpring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T17:33:17.515+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-13T17:33:17.531+05:30  INFO 18544 --- [MVCSpring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8534 (http) with context path ''
+2024-04-13T17:33:17.538+05:30  INFO 18544 --- [MVCSpring] [restartedMain] com.tcs.web.MvcSpringApplication         : Started MvcSpringApplication in 0.719 seconds (process running for 1617.371)
+2024-04-13T17:33:17.543+05:30  INFO 18544 --- [MVCSpring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-13T17:33:20.067+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-13T17:33:20.069+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-13T17:33:20.070+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-13T17:33:20.073+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-1] c.tcs.web.controller.ProductContoller    : Displaying product form.........
+2024-04-13T17:33:26.348+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-2] c.tcs.web.controller.ProductContoller    : Saving product: Product(id=1, name=aprilla, madeIn=IN, Brand=suzuki, price=800.0)
+2024-04-13T17:33:26.676+05:30  INFO 18544 --- [MVCSpring] [http-nio-8534-exec-3] c.tcs.web.controller.ProductContoller    : Getting all products
+2024-04-13T18:00:28.131+05:30  WARN 18544 --- [MVCSpring] [HikariPool-13 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=23m10s719ms529µs400ns).
+2024-04-13T18:00:36.316+05:30  INFO 18544 --- [MVCSpring] [RMI TCP Connection(61)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-13T18:00:36.359+05:30  INFO 18544 --- [MVCSpring] [RMI TCP Connection(61)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T18:00:36.374+05:30  WARN 18544 --- [MVCSpring] [RMI TCP Connection(61)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-13T18:00:36.374+05:30  INFO 18544 --- [MVCSpring] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-04-13T18:00:36.376+05:30  INFO 18544 --- [MVCSpring] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
